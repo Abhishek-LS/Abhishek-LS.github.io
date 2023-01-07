@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.container {
+  background-image: url("..//i6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: aliceblue;
+  font-size: 15px;
+  z-index: 1;
+}
+button{
+  
+  background: #2e5f76;
+  position:fixed;
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  bottom: 00%;
+  border-radius: 3px;
+  text-align: center;
+
+
+  text-align:bottom;
+  align-items: baseline;
+}
