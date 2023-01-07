@@ -1,14 +1,11 @@
-*{
-  margin:0;
-  padding: 0;
-}
+
 .container {
   background-image: url("..//princ.jpg");
 
   background-repeat: no-repeat;
   width: 30vh;
   height: 30vh;
-  display: flex;
+  display: ;
   justify-content: center;
   align-items: center;
   position: absolute;
