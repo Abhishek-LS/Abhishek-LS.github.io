@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.fig1{
+  background-image: url("..//pg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150vh;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+button{
+  
+  background: transparent;
+  position:fixed;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  bottom: 0%;
+  
+  
+  text-align: center;
+  box-shadow:4px 4px 4px  #6e5d5d;
+   border-color: rgb(76, 76, 150);
+
+  text-align:bottom;
+  align-items: baseline;
+}
