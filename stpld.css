@@ -1,0 +1,47 @@
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: rgb(41, 9, 90);
+  font-size: 25px;
+  z-index: 1;
+}
+h2{font-family: 'Pacifico', cursive;
+  color: rgb(18, 18, 18);
+  font-size: 15px;
+  z-index: 1;
+}
+
+button{
+  
+  background: transparent;
+  position:fixed;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  bottom: 0%;
+  
+  border-radius: 8px;
+  text-align: right;
+  box-shadow:4px 4px 4px  #e2dce9;
+   right:10%;
+
+  text-align:bottom;
+  align-items: baseline;
+}
+body{
+  background-color: rgb(249, 224, 211);
+}
+table{
+  width: 100PX;
+  margin: auto;
+}
+
+td{text-align: center;
+  padding: 10px;
+  
+}
+th{
+  align-self: start;
+  padding: 10px;
+
+}
