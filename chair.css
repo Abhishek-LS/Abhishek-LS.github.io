@@ -6,27 +6,43 @@
     outline: none;
     border: none;
     border-radius: 5px;
-    background: rgba(90, 88, 88, 0.253);
+    background: rgb(200, 195, 195);
+    cursor: pointer;
+  }
+  .back button{
+    font-size: 15px;
+    
+    font-weight: 500;
+    color: #07366e;
+    padding: 7px 30px;
+    outline: none;
+    border: none;
+    position:fixed;
+    bottom:2%;
+    
+    border-radius: 5px;
+    background: rgba(185, 185, 185, 0.552);
+
     cursor: pointer;
   }
   .next button{
-    font-size: 20px;
+    font-size: 15px;
     
     font-weight: 500;
-    color: #151618;
-    padding: 2px 20px;
+    color: #07366e;
+    padding: 7px 30px;
     outline: none;
     border: none;
     position:fixed;
     bottom:2%;
     right: 20%;
     border-radius: 5px;
-    background: rgb(168, 163, 163);
+    background: rgb(219, 216, 216);
 
     cursor: pointer;
   }
 .container {
-    background-image: url("..//princ.jpg");
+    background-image: url("..//p.jpg");
   
     background-repeat: no-repeat;
     width: 30vh;
@@ -50,5 +66,4 @@
     z-index: 1;
   }
   
- 
   
