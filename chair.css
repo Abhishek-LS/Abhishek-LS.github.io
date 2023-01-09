@@ -1,28 +1,16 @@
-.home button{
+*{
+    margin:0;
+    padding: 0;
+  }
+  .home button{
     font-size: 15px;
     font-weight: 500;
     color: #007bff;
-    padding: 10px 30px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    background: rgb(200, 195, 195);
-    cursor: pointer;
-  }
-  .back button{
-    font-size: 15px;
-    
-    font-weight: 500;
-    color: #07366e;
     padding: 7px 30px;
     outline: none;
     border: none;
-    position:fixed;
-    bottom:2%;
-    
     border-radius: 5px;
-    background: rgba(185, 185, 185, 0.552);
-
+    background: rgb(206, 204, 204);
     cursor: pointer;
   }
   .next button{
@@ -41,13 +29,13 @@
 
     cursor: pointer;
   }
-.container {
-    background-image: url("..//p.jpg");
+  .container {
+    background-image: url("..//princ.jpg");
   
     background-repeat: no-repeat;
     width: 30vh;
     height: 30vh;
-    display: ;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -66,4 +54,4 @@
     z-index: 1;
   }
   
-  
+ 
