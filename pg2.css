@@ -2,6 +2,52 @@
   margin:0;
   padding: 0;
 }
+.home button{
+    font-size: 15px;
+    font-weight: 500;
+    color: #007bff;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(200, 195, 195);
+    cursor: pointer;
+  }
+  
+  .back button{
+    font-size: 15px;
+    
+    font-weight: 500;
+    color: #07366e;
+    padding: 7px 30px;
+    outline: none;
+    border: none;
+    position:fixed;
+    bottom:2%;
+    
+    border-radius: 5px;
+    background: rgba(185, 185, 185, 0.552);
+
+    cursor: pointer;
+  }
+  
+  .next button{
+    font-size: 15px;
+    
+    font-weight: 500;
+    color: #07366e;
+    padding: 7px 30px;
+    outline: none;
+    border: none;
+    position:fixed;
+    bottom:2%;
+    right: 20%;
+    border-radius: 5px;
+    background: rgba(185, 185,185,0.552);
+
+    cursor: pointer;
+  }
+   
 .fig1{
   background-image: url("..//pg3.png");
   background-size: cover;
@@ -12,21 +58,4 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-}
-button{
-  
-  background: transparent;
-  position:fixed;
-  width: 50px;
-  height: 30px;
-  line-height: 30px;
-  bottom: 0%;
-  
-  
-  text-align: center;
-  box-shadow:4px 4px 4px  #6e5d5d;
-   border-color: rgb(76, 76, 150);
-
-  text-align:bottom;
-  align-items: baseline;
 }
