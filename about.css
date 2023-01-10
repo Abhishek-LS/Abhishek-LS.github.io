@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container {
-  background-image: url("..//i6.jpg");
+  background-image: ;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -22,7 +22,7 @@ h1 {
 }
 button{
   
-  background: #2e5f76;
+  background: #white;
   position:fixed;
   width: 80px;
   height: 45px;
