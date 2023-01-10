@@ -251,7 +251,8 @@
     }
     .content .links #show-features:checked ~ ul,
     .content .links #show-services:checked ~ ul,
-    .content .links #show-items:checked ~ ul{
+    .content .links #show-items:checked ~ ul,
+    .content .links #show:checked ~ ul{
       max-height: 100vh;
     }
     .content .links ul li{
